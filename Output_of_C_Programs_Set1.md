@@ -3,8 +3,8 @@ https://www.geeksforgeeks.org/output-of-a-program-set-1/
 
 <br/>
 
-# Q1 
-## Predict the output of below programs. 
+# Q1
+## Predict the output of below programs.
 ```
 #include<stdio.h>
 int main()
@@ -49,7 +49,7 @@ int main()
 
 <br/>
 
-# Q3 
+# Q3
 ```
 # include <stdio.h>
 # define scanf "%s Geeks For Geeks "
@@ -68,7 +68,7 @@ main()
 
 <br/>
 
-# Q4 還沒看過 enmu ，先pass
+# Q4
 
 ```
 #include <stdlib.h>
@@ -89,8 +89,15 @@ int main()
 getchar();
 return 0;
 }
-
 ```
+這題考的是enum {false, true};
+
+enum 分別依順序把false設成0 true設成1
+因此do while 會至少做一次，i = 1，
+
+while(false) = while(0) 跳出迴圈
+印出來的答案為1
+
 
 <br/>
 
@@ -111,6 +118,6 @@ int main()
 ```
 char *str = "Nice test for strings" 叫做指向"Nice test for strings" 的字元指標 str
 
-因此 printf("%s", getString()) 因此會直接print(str) 
+因此 printf("%s", getString()) 因此會直接print(str)
 
 <br/>
