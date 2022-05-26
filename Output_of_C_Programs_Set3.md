@@ -1,6 +1,5 @@
 # 題目連結
-https://www.geeksforgeeks.org/output-of-a-program-set-3/
-
+https://www.geeksforgeeks.org/output-of-programs-set-3/?ref=lbp
 <br/>
 
 # Q1 
@@ -14,6 +13,7 @@ int main()
     return 0;
 }
 ```
+Ans:
 
 這題會印出main的地址，函數名稱其實是一個指向函數的指針
 
@@ -46,6 +46,7 @@ int main()
 ```
 
 Ans: 
+
 ew_c_questionygeeksforgeeks
 
 好像是因為\n,\b,\r,是換行符 因此 printf 時會省略
